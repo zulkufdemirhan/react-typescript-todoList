@@ -3,8 +3,6 @@ import { ITask } from "./typeoftodo";
 import './App.css';
 import TodoComp from "./components/TodoComp";
 
-
-
 const App: FunctionComponent=() => {
   const [task,setTask]=useState<string>("");
   const [deadline,setDeadline]=useState<number>(0)
@@ -49,7 +47,6 @@ const App: FunctionComponent=() => {
     </div>
   )
 }
-
 export default App;
 
 
